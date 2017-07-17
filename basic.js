@@ -78,7 +78,7 @@ var quiz = function(fileName, x) {
 		} 
 		//after asking all the questions in the file
 		else {
-			console.log("Let's see how you did");
+			console.log("Let's see how you did!");
 			console.log('Correct Answers: ' + correctAnswers);
 			console.log('Wrong Answers: ' + wrongAnswers);
 			correctAnswers = 0;
