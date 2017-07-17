@@ -20,7 +20,7 @@ var startGame = function () {
 	
 	]).then(function(answer) {
 
-		if (answer.userChice === 'basic-quiz') {
+		if (answer.userChoice === 'basic-quiz') {
 			quiz('log.txt', 0);
 		}
 		else if (answer.userChoice === 'cloze-quiz') {
